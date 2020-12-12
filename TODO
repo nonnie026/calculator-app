@@ -1,0 +1,22 @@
+PROJECT SETUP ASTHETICS:
+  ✔ Big container design @started(20-12-11 21:47) @done(20-12-11 21:47) @lasted(22s)
+  ✔ Calculator container @started(20-12-11 22:04) @done(20-12-11 22:05) @lasted(1m1s)
+    ✔ Rounded borders @started(20-12-11 22:05) @done(20-12-11 22:05) @lasted(11s)
+  ✔ Divide calculator into 3 sections (Screen - Tabs - Numbers) @started(20-12-11 22:22) @done(20-12-11 22:22) @lasted(23s)
+  ☐ Buttons component
+    ☐ Round and center aligned
+    ☐ Different colors for text
+    ☐ Click color
+    ☐ Hover color
+    ☐ Pulse animation
+  ☐ Numbers Section:
+    ☐ Arrange buttons into 5x4 layout
+    ☐ Get maths symbols for (x - / - + - - = )
+  ☐ Tabs Section:
+    ☐ Get icons for tabs (delete - history - ruler - advanced math)
+    ☐ Line under
+  ☐ Screen
+    ☐ Blinking cursor
+    ☐ Separate screen into 2 sections - query + response
+  
+

@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/playground">Playground</router-link> |
-      <router-link to="/how-to">How-to</router-link>
-    </div>
     <router-view />
   </div>
 </template>
@@ -15,18 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
 }
 </style>

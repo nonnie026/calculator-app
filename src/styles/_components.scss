@@ -1,0 +1,52 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  max-width: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  cursor: pointer;
+
+  &.grey-bg {
+    background-color: $color-light-grey;
+    &:hover {
+      background-color: darken($color: $color-light-grey, $amount: 10%);
+    }
+  }
+  &.orange-bg {
+    background-color: $color-primary-dark;
+  }
+  &.green-bg {
+    background-color: $color-green;
+    &:hover {
+      background-color: darken($color: $color-green, $amount: 10%);
+    }
+  }
+
+  &:active {
+    transform: scale(0.9, 0.9);
+  }
+
+}
+
+.btn-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+
+  &.white-txt {
+    color: $color-white;
+  }
+  &.dark-grey-txt {
+    color: $color-dark-grey;
+  }
+  &.orange-txt {
+    color: $color-primary-dark;
+  }
+  &.green-txt {
+    color: $color-green;
+  }
+}
